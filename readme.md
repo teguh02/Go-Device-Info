@@ -14,5 +14,5 @@ GOOS=linux GOARCH=amd64 go build -o dist/linux-device-info device_info.go
 
 ## To Mac
 ```bash
-GOOS=darwin GOARCH=amd64 go build -o dist/device-info device_info.go
+GOOS=darwin GOARCH=amd64 go build -o dist/mac-device-info device_info.go
 ```
